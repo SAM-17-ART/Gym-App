@@ -1,0 +1,141 @@
+/* .start-site{
+   background-color: blue;
+} */
+
+.big-banner{
+    background-image: url('/fitness.jpg');
+    height:450px;
+    /* width:100%; */
+    background-color:rgba(0, 0, 0, 0.701);
+    background-blend-mode:darken;
+}
+h1#main{
+    font-size: 50px;
+}
+h1#side{
+    font-size: 35px;
+}
+div.card1{
+    border-radius: 0rem;
+    height:320px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+div.card1:hover{
+    /* cursor: pointer; */
+    transform: perspective(200px) translateZ(10px);
+    transition:0.25s ease-in;
+}
+
+a{
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+img.img1{
+    height:250px;
+    border-radius: 0px;
+}
+#background{
+    background-color:orange;
+}
+.img2{
+    height:350px;
+}
+.dimension{
+    margin-top:84px;
+}
+a.dimension{
+    margin-left: 300px;
+    border-radius: 5px;
+    margin-top: 45px;
+}
+.card2{
+    height:320px;
+    width:250px;
+    border-radius: 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    color:black;
+}
+.foots{
+    height:200px;
+}
+.unordered{
+    list-style:none;
+}
+.container2{
+    margin-bottom: 40px;
+}
+.container3{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+@media(max-width:480px){
+    
+    h1#main{
+        font-size:xx-large;
+    }
+    h1#side{
+        font-size:large;
+    }
+    .type1{
+        font-size: xx-large;
+    }
+    .img2{
+        height:90px;
+        
+    }
+    .margin{
+        margin: 28px;
+        /* height:130px; */
+    }
+    .dimension{
+        margin-top: 50px;
+    }
+    a.dimension{
+        margin-left: 70px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        height: auto;
+        width:auto;
+    }
+    .type2{
+        font-size: 18px;
+    }
+    .type3{
+        font-size: 28px;
+    }
+    .containerscard{
+        margin-left: 20px;
+    }
+    .imagecontainer{
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+    .type4{
+        font-size: 6px;
+    }
+    .type5{
+        font-size: 9px;
+    }
+    .foots{
+        height:320px;
+    }
+    .containerscard1{
+        padding-left: 40px;
+       
+    }
+    .container2{
+        margin-bottom: 15px;
+    }
+    .container3{
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+    .size{
+        font-size: small;
+    }
+    
+}
