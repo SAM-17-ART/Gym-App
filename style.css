@@ -1,9 +1,5 @@
-/* .start-site{
-   background-color: blue;
-} */
-
 .big-banner {
-    background-image: url('/images/fitness.jpg');
+    background-image: url('./fitness.jpg');
     /* width:100%; */
     background-color: rgba(0, 0, 0, 0.701);
     background-blend-mode: darken;
